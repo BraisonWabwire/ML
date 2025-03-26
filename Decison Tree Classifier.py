@@ -8,7 +8,7 @@ print("Path to dataset files:", path)
 
 # %%
 import pandas as pd
-df=pd.read_csv('loan_approval_dataset.csv
+df=pd.read_csv('loan_approval_dataset.csv')
 df.head(10)
 
 
