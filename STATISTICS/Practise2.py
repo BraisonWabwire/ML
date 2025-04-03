@@ -5,7 +5,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score
 
 # Load data from Excel
-file_path = "data.xlsx"  # Replace with the actual path
+file_path = "C:/Users/brais/OneDrive/Desktop/ML/STATISTICS/practise2.xlsx"
 df = pd.read_excel(file_path)
 
 # Split data into features (X) and target variable (y)
