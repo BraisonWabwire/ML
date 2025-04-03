@@ -8,8 +8,9 @@ from sklearn.metrics import accuracy_score, confusion_matrix, precision_score
 random_seed = 12345
 
 # Load the data
-file_path = "Ch12_Q1_V10_Data_File.xlsx"  # Change this to your actual file path
+file_path = "C:/Users/brais/OneDrive/Desktop/ML/STATISTICS/Ch12_Q1_V10_Data_File.xlsx"  # Change this to your actual file path
 df = pd.read_excel(file_path)
+
 
 # Splitting data into features (X) and target variable (y)
 X = df[['x1', 'x2']]
